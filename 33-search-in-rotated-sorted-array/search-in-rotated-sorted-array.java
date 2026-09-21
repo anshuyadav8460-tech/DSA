@@ -8,7 +8,6 @@ class Solution {
             if (nums[mid] == target) {
                 return mid;
             }
-
             // Left half sorted
             if (nums[lo] <= nums[mid]) {
                 if (nums[lo] <= target && target < nums[mid]) {
